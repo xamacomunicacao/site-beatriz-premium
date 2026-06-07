@@ -316,7 +316,7 @@ a {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    transform: scale(1.15); /* Zoom profundo de 15% para engolir qualquer logotipo que fica ancorado nos limites do vídeo nativo em qualquer proporção de tela */
+    transform: none; /* Vídeo na proporção original, sem invadir a navbar (testa livre!) */
 }
 
 .hero-overlay {
@@ -332,10 +332,10 @@ a {
 /* Botão de Controle do Vídeo */
 .hero-video-control {
     position: absolute;
-    bottom: 40px;
-    right: 40px;
-    width: 64px; 
-    height: 64px;
+    bottom: 15px; /* Colado na borda inferior do vídeo */
+    right: 15px; /* Colado na borda direita do vídeo, cobrindo o logotipo real */
+    width: 75px; /* Tamanho exato e sutil */
+    height: 75px;
     border-radius: 50%;
     background-color: var(--white); 
     color: var(--primary);
