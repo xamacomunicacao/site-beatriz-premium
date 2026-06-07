@@ -332,10 +332,10 @@ a {
 /* Botão de Controle do Vídeo */
 .hero-video-control {
     position: absolute;
-    bottom: 15px; /* Colado na borda inferior do vídeo */
-    right: 15px; /* Colado na borda direita do vídeo, cobrindo o logotipo real */
-    width: 75px; /* Tamanho exato e sutil */
-    height: 75px;
+    bottom: 35px; 
+    right: 110px; 
+    width: 80px; 
+    height: 80px;
     border-radius: 50%;
     background-color: var(--white); 
     color: var(--primary);
