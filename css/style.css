@@ -316,8 +316,7 @@ a {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    /* Um overlay leve se precisar, caso o fundo seja muito forte */
-    /* mask-image: linear-gradient(to bottom, white 80%, transparent 100%); */
+    transform: scale(1.06); /* Dá um leve zoom para empurrar as marcas d'água das bordas para fora da tela responsivamente */
 }
 
 .hero-overlay {
@@ -330,22 +329,22 @@ a {
     z-index: -1;
 }
 
-/* Botão de Controle do Vídeo (Camuflagem da Marca d'Água) */
+/* Botão de Controle do Vídeo */
 .hero-video-control {
     position: absolute;
-    bottom: 22px; /* Subindo um pouquinho para tampar a ponta superior */
-    right: 110px; /* Movendo mais para a esquerda para tampar a ponta restante */
-    width: 72px; /* Mais uma gordurinha de tamanho */
-    height: 72px;
+    bottom: 40px; 
+    right: 40px; 
+    width: 64px; 
+    height: 64px;
     border-radius: 50%;
-    background-color: var(--white); /* Fundo sólido puro para esconder totalmente a marca d'água */
+    background-color: var(--white); 
     color: var(--primary);
     border: none;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.35rem; /* Ajustando a fonte para alinhar melhor visualmente o ícone FA */
     cursor: pointer;
     z-index: 10;
     transition: var(--transition-smooth);
