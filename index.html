@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz | Fisioterapia Integrativa & Pilates Premium</title>
+    
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="Fisioterapia integrativa, osteopatia e pilates clínico boutique com atendimento individualizado e exclusivo de 1 hora. Recupere sua postura e viva sem dor.">
+    <meta name="keywords" content="fisioterapia premium, pilates clinico, osteopatia, fisioterapia personalizada, dra beatriz, fisioterapia reembolso, clinica fisioterapia sao paulo">
+    
+    <!-- Preload LCP (Vídeo da Hero) -->
+    <link rel="preload" as="video" href="assets/Modelo_sorrindo_movimentando_mão_202606062217.mp4" type="video/mp4">
+    
+    <!-- Open Graph (Facebook/LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Beatriz | Fisioterapia Integrativa & Pilates Premium">
+    <meta property="og:description" content="Atendimento exclusivo de 1 hora focado em reabilitação postural, alívio de dores crônicas e pilates personalizado.">
+    <meta property="og:image" content="assets/brand_cover.jpg">
+    <meta property="og:url" content="https://www.drabeatrizfisio.com.br">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome para ícones premium -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org JSON-LD para SEO Local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Beatriz | Fisioterapia Integrativa & Pilates Premium",
+      "image": "assets/brand_cover.jpg",
+      "description": "Consultório de fisioterapia boutique com atendimento particular individualizado de alta performance, osteopatia e pilates clínico.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Brigadeiro Faria Lima, 1485",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "01452-002",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.5714,
+        "longitude": -46.6896
+      },
+      "telephone": "+5511999999999",
+      "priceRange": "$$$",
+      "medicalSpecialty": "Physiotherapy",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "20:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar-wrapper">
+        <nav class="navbar" id="navbar">
+            <a href="#" class="logo">
+                <span class="logo-accent">Beatriz</span> <span class="logo-sub">Fisioterapia</span>
+            </a>
+            <div class="nav-links">
+                <a href="#metodo" class="nav-link">O Método</a>
+                <a href="#sobre" class="nav-link">Sobre Mim</a>
+                <a href="#diferenciais" class="nav-link">Diferenciais</a>
+                <a href="#faq" class="nav-link">Dúvidas</a>
+            </div>
+            <a href="https://wa.me/5511999999999?text=Olá%20Dra.%20Beatriz,%20gostaria%20de%20agendar%20uma%20avaliação%20exclusiva." target="_blank" rel="noopener noreferrer" class="btn-nav">
+                Agendar Consulta
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Abrir menu de navegação">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <!-- O vídeo animado gerado pelo usuário entrará aqui -->
+        <video class="hero-video-bg" autoplay loop muted playsinline preload="auto" id="heroVideo">
+            <!-- Arquivo gerado animado -->
+            <source src="assets/Modelo_sorrindo_movimentando_mão_202606062217.mp4" type="video/mp4">
+        </video>
+        <!-- Botão de controle de pausa (Estrategicamente posicionado para camuflar a marca d'água gerada) -->
+        <button class="hero-video-control" id="heroVideoControl" aria-label="Pausar ou reproduzir vídeo">
+            <i class="fa-solid fa-pause"></i>
+        </button>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-container" style="grid-template-columns: 1fr; text-align: left; max-width: 800px; margin-right: auto; padding-left: 2rem;">
+            <div class="hero-content">
+                <span class="hero-tag" style="background-color: rgba(255,255,255,0.9); color: var(--primary); font-weight: 700;">Fisioterapia Premium</span>
+                <h1 class="hero-title" style="color: var(--text-dark); max-width: 700px;">Harmonia do movimento, <br><span class="text-gradient">precisão terapêutica.</span></h1>
+                <p class="hero-subtitle" style="color: var(--text-dark); max-width: 600px; font-weight: 500;">
+                    Atendimento clínico individualizado e integrativo. Um tratamento desenhado sob medida para restaurar sua postura, aliviar dores crônicas e potencializar sua performance física.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="box-shadow: 0 10px 20px rgba(39, 142, 137, 0.3);">
+                        Agendar Avaliação VIP <i class="fa-solid fa-arrow-right icon-btn"></i>
+                    </a>
+                    <a href="#metodo" class="btn btn-secondary" style="background-color: white;">Conhecer o Método</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span class="scroll-text">Role para explorar</span>
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Método (Os 3 Pilares) -->
+    <section class="section metodo-section" id="metodo">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Como Trabalhamos</span>
+                <h2 class="section-title">O Método Beatriz</h2>
+                <p class="section-subtitle">
+                    Uma abordagem integrada que une diagnóstico profundo à reabilitação ativa para gerar resultados sustentáveis e de longo prazo.
+                </p>
+            </div>
+            
+            <div class="grid-pilares">
+                <!-- Pilar 1 -->
+                <div class="pilar-card" id="pilar-1">
+                    <div class="pilar-icon">
+                        <i class="fa-solid fa-hand-holding-hand"></i>
+                    </div>
+                    <h3 class="pilar-title">Fisioterapia Integrativa</h3>
+                    <p class="pilar-description">
+                        Diagnósticos aprofundados combinando terapia manual avançada, osteopatia e liberação miofascial para tratar a origem biomecânica da dor.
+                    </p>
+                </div>
+                
+                <!-- Pilar 2 -->
+                <div class="pilar-card" id="pilar-2">
+                    <div class="pilar-icon">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <h3 class="pilar-title">Pilates Clínico Boutique</h3>
+                    <p class="pilar-description">
+                        Fortalecimento muscular inteligente em aparelhos modernos, com foco em estabilização, alinhamento postural e mobilidade articular.
+                    </p>
+                </div>
+                
+                <!-- Pilar 3 -->
+                <div class="pilar-card" id="pilar-3">
+                    <div class="pilar-icon">
+                        <i class="fa-solid fa-person-running"></i>
+                    </div>
+                    <h3 class="pilar-title">Reabilitação & Performance</h3>
+                    <p class="pilar-description">
+                        Exercícios funcionais e educativos sob medida para prevenir recidivas de lesões e capacitar o corpo para as demandas do dia a dia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section class="section sobre-section" id="sobre">
+        <div class="section-container grid-sobre">
+            <div class="sobre-visual">
+                <div class="image-wrapper-premium">
+                    <img src="assets/ChatGPT Image 6 de jun. de 2026, 23_18_14.png" alt="Retrato oficial da Dra. Beatriz Fisioterapeuta" class="sobre-img-real" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: inherit;">
+                </div>
+            </div>
+            <div class="sobre-content">
+                <span class="section-tag">A Profissional</span>
+                <h2 class="section-title">Cuidado científico focado na sua individualidade</h2>
+                <p class="text-highlight">
+                    Acredito que o movimento humano é a expressão de nossa liberdade e vitalidade.
+                </p>
+                <p class="sobre-text">
+                    Olá, sou a Dra. Beatriz. Com especializações em terapia manual e reabilitação postural, fundei este consultório com a convicção de que cada paciente merece um cuidado integral, científico e livre de pressa.
+                </p>
+                <p class="sobre-text">
+                    Aqui, não trabalhamos com protocolos engessados de convênio. Cada sessão é desenhada individualmente com base em uma avaliação detalhada e atualizada a cada consulta, garantindo sua evolução contínua e segura.
+                </p>
+                <div class="sobre-badges">
+                    <div class="badge-item">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Especialista Clínica</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Prática Baseada em Evidências</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Premium -->
+    <section class="section diferenciais-section" id="diferenciais">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-tag light">Experiência VIP</span>
+                <h2 class="section-title text-light">Por que escolher nossos serviços?</h2>
+            </div>
+            
+            <div class="grid-diferenciais">
+                <!-- Card 1 -->
+                <div class="dif-card">
+                    <div class="dif-icon"><i class="fa-regular fa-clock"></i></div>
+                    <h3 class="dif-title">Consulta de 1 Hora Exclusiva</h3>
+                    <p class="dif-desc">Todo o período da consulta é dedicado inteiramente a você, sem interrupções ou salas de espera cheias.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="dif-card">
+                    <div class="dif-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <h3 class="dif-title">Suporte Completo para Reembolso</h3>
+                    <p class="dif-desc">Fornecemos documentação clínica completa e recibos detalhados para facilitar o reembolso junto ao seu plano de saúde.</p>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="dif-card">
+                    <div class="dif-icon"><i class="fa-solid fa-house-medical"></i></div>
+                    <h3 class="dif-title">Fisioterapia Home Care</h3>
+                    <p class="dif-desc">O mesmo padrão de excelência clínica levado até o conforto e a privacidade do seu lar, ideal para reabilitações que exigem comodidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ (Perguntas Frequentes) -->
+    <section class="section faq-section" id="faq">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-tag">Esclarecimentos</span>
+                <h2 class="section-title">Perguntas Frequentes</h2>
+            </div>
+            
+            <div class="accordion-wrapper">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>O consultório aceita planos de saúde (convênios)?</span>
+                        <span class="accordion-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Atendemos exclusivamente em caráter particular para garantir a duração e a qualidade personalizada do seu tratamento. No entanto, fornecemos relatórios médicos detalhados e recibos fiscais com os códigos de procedimento necessários para que você possa solicitar o reembolso de maneira ágil ao seu convênio.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>Como funciona a primeira sessão?</span>
+                        <span class="accordion-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            A primeira sessão é dividida em duas partes: uma avaliação física minuciosa (anamnese, testes posturais, de mobilidade e de força) para identificar a causa das dores ou disfunções, e a aplicação das primeiras condutas de alívio e tratamento com terapia manual na mesma hora.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>Quantas sessões vou precisar para melhorar?</span>
+                        <span class="accordion-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Isso varia de acordo com a patologia, tempo dos sintomas e resposta fisiológica de cada paciente. Após a avaliação inicial, traçamos um prognóstico e uma estimativa realista de sessões necessárias. Nosso compromisso é dar alta ao paciente no menor tempo possível, capacitando-o para autogerenciar sua saúde.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final e Footer -->
+    <footer class="footer-section">
+        <div class="footer-glow"></div>
+        <div class="section-container footer-cta-container">
+            <div class="footer-cta-card">
+                <h2 class="cta-title text-light">Pronto para viver sem limitações?</h2>
+                <p class="cta-desc text-light">Agende sua avaliação inicial e descubra o que a fisioterapia premium personalizada pode fazer pelo seu corpo.</p>
+                <a href="https://wa.me/5511999999999?text=Olá%20Dra.%20Beatriz,%20gostaria%20de%20agendar%20uma%20avaliação%20exclusiva." target="_blank" rel="noopener noreferrer" class="btn-cta-glass">
+                    Agendar pelo WhatsApp <i class="fa-brands fa-whatsapp icon-btn"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="section-container footer-bottom">
+            <div class="footer-brand">
+                <span class="logo-accent text-light">Beatriz</span> <span class="logo-sub">Fisioterapia</span>
+                <p class="copyright">&copy; 2026 Dra. Beatriz Fisioterapia Integrativa. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-location-dot"></i> Av. Brigadeiro Faria Lima, 1485 - São Paulo, SP</p>
+                <p><i class="fa-solid fa-envelope"></i> contato@drabeatrizfisio.com.br</p>
+                <p><i class="fa-solid fa-phone"></i> (11) 99999-9999</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP e ScrollTrigger para animações premium -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Script Principal -->
+    <script src="js/main.js"></script>
+</body>
+</html>
