@@ -332,10 +332,8 @@ a {
 /* Botão de Controle do Vídeo */
 .hero-video-control {
     position: absolute;
-    bottom: 25px; /* Posição sobre o logo do Gemini/Luma */
-    right: 95px; /* Alinhado horizontalmente sobre o logo */
-    width: 95px; /* Botão gigante para tampar confortavelmente a estrela */
-    height: 95px;
+    width: 64px; 
+    height: 64px;
     border-radius: 50%;
     background-color: var(--white); 
     color: var(--primary);
