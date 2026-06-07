@@ -943,14 +943,24 @@ a {
         margin-left: 10px;
     }
     
-    /* Otimizar o botão da Navbar no Mobile e esconder palavra extra da logo para caber tudo numa linha */
-    .logo-sub {
-        display: none; 
+    /* Restaurando a marca completa no mobile e otimizando layout */
+    .logo {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+        font-size: 1.2rem;
     }
+    .logo-sub {
+        display: block;
+        font-size: 0.85rem;
+        opacity: 0.9;
+        font-weight: 500;
+    }
+    
     .btn-nav {
         padding: 0.5rem 0.8rem;
         font-size: 0.8rem;
-        border-radius: 12px; /* Reduz a aparência de pílula gigante (salsicha) */
+        border-radius: 12px; /* Reduz a aparência de pílula gigante */
         white-space: nowrap; /* Impede que quebre em duas linhas */
     }
 
